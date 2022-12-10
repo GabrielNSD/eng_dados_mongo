@@ -3,7 +3,7 @@ import pandas as pd
 
 client = get_client()
 
-df = pd.read_csv('./db/data.csv', sep=';')
+df = pd.read_csv('./db/discentes-2022.csv', sep=';')
 
 df_dict = df.to_dict(orient='records')
 
